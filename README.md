@@ -1,5 +1,7 @@
 <img src='https://raw.githubusercontent.com/Milenaafeworki/Tanzanian_water_well/master/images/new-handpump-mod-need-to-crop.png'>
+
 [Image source](https://rwsn.blog/2016/06/17/water-spillovers-and-free-riding-the-economics-of-pump-functionality-in-tanzania/)
+
 https://www.seametrics.com/blog/5-water-non-profits-overseas/ the three buckets
 https://rwsn.blog/2016/06/17/water-spillovers-and-free-riding-the-economics-of-pump-functionality-in-tanzania/ pump functionality
 https://www.dreamstime.com/photos-images/carrying-tanzania-water.html girl on water well(how far do they have to travel)
