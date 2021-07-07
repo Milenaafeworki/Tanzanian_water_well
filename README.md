@@ -1,5 +1,5 @@
-<img src='https://raw.githubusercontent.com/Milenaafeworki/Tanzanian_water_well/master/images/1700.jpg'>
-
+<img src='https://raw.githubusercontent.com/Milenaafeworki/Tanzanian_water_well/master/images/new-handpump-mod-need-to-crop.png'>
+[Image source](https://rwsn.blog/2016/06/17/water-spillovers-and-free-riding-the-economics-of-pump-functionality-in-tanzania/)
 https://www.seametrics.com/blog/5-water-non-profits-overseas/ the three buckets
 https://rwsn.blog/2016/06/17/water-spillovers-and-free-riding-the-economics-of-pump-functionality-in-tanzania/ pump functionality
 https://www.dreamstime.com/photos-images/carrying-tanzania-water.html girl on water well(how far do they have to travel)
@@ -27,7 +27,7 @@ For this project, we will follow the OSEMN process of data science inquiry. It i
 
 ## The Data
 
-The raw data from [Tanzanian Water Well](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23/) Data contains the following columns:
+The raw data from [Tanzanian Water Well](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23/) contains the following columns:
 
 - **amount_tsh** -     Total static head (amount water available to waterpoint)
 - **date_recorded** -  The date the row was entered
