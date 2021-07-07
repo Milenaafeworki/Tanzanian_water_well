@@ -70,3 +70,33 @@ The raw data from [Tanzanian Water Well](https://www.drivendata.org/competitions
 - **source_class** -      The source of the water
 - **waterpoint_type** -   The kind of waterpoint
 - **waterpoint_type_group** - The kind of waterpoint
+
+Here is an image of the location of the wells classified according to their functionality.
+
+<img src='https://raw.githubusercontent.com/Milenaafeworki/Tanzanian_water_well/master/images/functionality%20map.png'>
+
+## Modeling
+
+After cleaning the data and dealing with missing values either by replacement or completely dropping irrelevant features, the next step was to build baseline models.
+
+### Evalution metrics
+
+Evaluation results were chosen using the f1_macro scorer. The f1_macro scorer calculates f1 for each class and takes an average meaning it  will give the same importance to each label/class. This gives greater weight to smaller classes which is ideal for this project. F1 was chosen as the metric because it gives a better measure of the incorrectly classified cases than the Accuracy Metric.
+
+
+### Process
+
+Modeling involved iterating through parameters of the following model types with GridSearchCV and SMOTE on the following model types:
+
+K-Nearest Neighbors - KNNClassifier
+Random Forest - RandomForestClassifier
+XGBoost - XGBClassifier
+
+## Conclusions and Interpretation
+
+
+
+
+
+
+
