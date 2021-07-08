@@ -71,13 +71,17 @@ The raw data from [Tanzanian Water Well](https://www.drivendata.org/competitions
 - **waterpoint_type** -   The kind of waterpoint
 - **waterpoint_type_group** - The kind of waterpoint
 
-Here is an image of the location of the wells classified according to their functionality.
+
+
+**Here is an image of the location of the wells classified according to their functionality.**
 
 <img src='https://raw.githubusercontent.com/Milenaafeworki/Tanzanian_water_well/master/images/functionality%20map.png'>
 
 ## Modeling
 
-After cleaning the data and dealing with missing values either by replacement or completely dropping irrelevant features, the next step was to build baseline models.
+After cleaning the data and dealing with missing values either by replacement or completely dropping irrelevant features, the next step was to explore different trends with the help of visualizations before moving on to modeling.
+
+<img src='https://raw.githubusercontent.com/Milenaafeworki/Tanzanian_water_well/master/images/quantity.png'>
 
 ### Evalution metrics
 
