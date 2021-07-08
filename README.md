@@ -14,7 +14,7 @@ Tanzania, as a developing country, struggles with providing clean water to its p
 
 ## Business Problem
 
-This project aims to use the data to anticipate when a well needs repair or maintenance, ideally before it breaks and disrupts the local water supply. Failing to identify nonfunctional water supply lines could lead villagers to suffer in many ways, including travelling long distances to other water sources, increased time and effort to fetch water, or even being victims of different health-related issues that come with poor water quality. Accordingly,  though it is important to build a model that will accurately classify the wells, it is crucial that our model's tollerance to errors of misclassifying wells, especially the 'nonfunctional' and 'needs repair' groups, is as low as possible.  
+This project aims to use the data to anticipate when a well needs repair or maintenance, ideally before it breaks and disrupts the local water supply. Failing to identify nonfunctional water supply lines could lead villagers to suffer in many ways, including traveling long distances to other water sources, increased time and effort to fetch water, or even being victims of different health-related issues that come with poor water quality. Accordingly,  though it is important to build a model that will accurately classify the wells, it is crucial that our model's tollerance to errors of misclassifying wells, especially the 'nonfunctional' and 'needs repair' groups, is as low as possible.  
 
 ## The OSMEN Process
 
@@ -81,16 +81,18 @@ After cleaning the data and dealing with missing values either by replacement or
 
 ### Evalution metrics
 
-Evaluation results were chosen using the f1_macro scorer. The f1_macro scorer calculates f1 for each class and takes an average meaning it  will give the same importance to each label/class. This gives greater weight to smaller classes which is ideal for this project. F1 was chosen as the metric because it gives a better measure of the incorrectly classified cases than the Accuracy Metric.
+Evaluation results were chosen using the f1_macro scorer considering it calculates f1 for each class and takes the average, meaning it will give the same importance to each label/class. This gives greater weight to smaller classes which are ideal for this project. F1 was also chosen as the metric because it gives a better measure of the incorrectly classified cases than the Accuracy Metric.
 
 
 ### Process
 
 Modeling involved iterating through parameters of the following model types with GridSearchCV and SMOTE on the following model types:
 
-K-Nearest Neighbors - KNNClassifier
-Random Forest - RandomForestClassifier
-XGBoost - XGBClassifier
+- K-Nearest Neighbors - KNNClassifier
+
+- Random Forest - RandomForestClassifier
+
+- XGBoost - XGBClassifier
 
 ## Conclusions and Interpretation
 
@@ -100,3 +102,14 @@ XGBoost - XGBClassifier
 
 
 
+```
+├── images
+├── notebook
+├── presentation.pdf
+├── tanzanian_water_wells.ipynb
+├── README.md
+├── SubmissionFormat.csv
+├── test_set_values.csv
+├── training_set_labels.csv
+└── training_set_values.csv
+```
