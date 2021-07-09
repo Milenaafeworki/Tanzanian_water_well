@@ -2,9 +2,6 @@
 
 [Image source](https://rwsn.blog/2016/06/17/water-spillovers-and-free-riding-the-economics-of-pump-functionality-in-tanzania/)
 
-https://www.seametrics.com/blog/5-water-non-profits-overseas/ the three buckets
-https://rwsn.blog/2016/06/17/water-spillovers-and-free-riding-the-economics-of-pump-functionality-in-tanzania/ pump functionality
-https://www.dreamstime.com/photos-images/carrying-tanzania-water.html girl on water well(how far do they have to travel)
 
 
 # Tanzanian Water Well Functionality Classification.
@@ -101,7 +98,31 @@ Modeling involved iterating through parameters of the following model types with
 ## Conclusions and Interpretation
 
 
+The overall best model was Random Forrest which performed considerably better than other models at predicting which wells were functional but need repair.(Recall score)
 
+**Random forest:** 
+
+   1. Baseline model
+    
+    Non functional  (77%)     
+    Functional      (87%)   
+    Functional needs repair  (29%) 
+    
+    
+   2. Gridsearch CV
+    
+    Non functional  (68%)     
+    Functional      (92%)   
+    Functional needs repair  (10%)
+    
+    
+   3. SMOTE
+    
+    Non functional  (69%)     
+    Functional      (79%)   
+    Functional needs repair  (55%)
+
+ Given more time and with some more tunning it may be able to increase its performance.
 
 
 
