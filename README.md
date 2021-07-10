@@ -123,8 +123,16 @@ The overall best model was Random Forrest which performed considerably better th
     Functional needs repair  (55%)
 
  Given more time and with some more tunning it may be able to increase its performance.
+ 
+ ## Further Study
 
+1. Identify and indicate wells that are no longer functional due to being past their life span.
 
+2. Review which extraction types last longer in supply and quality of water.
+
+3. Identify companies with a record of poor installation, and lack of maintenance.
+
+4. Include date records of maintenance, accurate population size and Construction year.
 
 
 ```
