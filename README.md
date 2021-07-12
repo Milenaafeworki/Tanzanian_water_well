@@ -13,7 +13,7 @@ Tanzania, as a developing country, struggles with providing clean water to its p
 
 This project aims to use the data to anticipate when a well needs repair or maintenance, ideally before it breaks and disrupts the local water supply. Failing to identify nonfunctional water supply lines could lead villagers to suffer in many ways, including traveling long distances to other water sources, increased time and effort to fetch water, or even being victims of different health-related issues that come with poor water quality. Accordingly,  though it is important to build a model that will accurately classify the wells, it is crucial that our model's tollerance to errors of misclassifying wells, especially the 'nonfunctional' and 'needs repair' groups, is as low as possible.  
 
-## The OSMEN Process
+## The OSEMN Process
 
 For this project, we will follow the OSEMN process of data science inquiry. It is split into five stages which include:
 
